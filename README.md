@@ -1,9 +1,26 @@
-# RTL-SDR 
-## (implementing FM radio using Matlab with GUI user interface for better view)
+## RTL-SDR 
+## (FM radio player using Matlab )
 
-### important note: it's better to use Matlab 2014B for running this code
+#### highly recommended to use Matlab 2014B for utilizing  RTL-SDR
+
+In this project, I make a radio FM broadcast player with Matlab real-time processing, and for better performance, I wrote a user-friendly GUI for this application.
+for listening to FM radio with this code, you just need an RTL-SDR antenna and knowing regional FM channels frequencies to set the radio on them.
+in this project, I use three methods for demodulating FM signals and I want to mention that I didn't use any of the Matlab ready demodulators
+
+1. Quadrature detector
+
+2. Zero crossing demodulator
 
 
-I'm kasra Fallah, last year student of electrical engineering at sharif university of technology.
-in this project, I make a radio FM broadcast player with Matlab real-time processing.
-for using this code you need an antenna and 2014a matlab version with rtl-sdr matlab 
+3. Hilbert demodulator
+
+and for presenting signal power spectral density I use two popular methods
+
+1. pwlech
+
+2. wiener-khinchin theorem
+
+GUI view of this FM player
+
+
+highly recommended to use Matlab 2014B for utilizing  RTL-SDR
