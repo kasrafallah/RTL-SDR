@@ -23,6 +23,6 @@ and for presenting signal power spectral density I use two popular methods
 GUI view of this FM player
 
 <p align="center">
-<image align="center" src = "FM.png" width="600">
+<image align="center" src = "images/FM.png" width="600">
 </p>
 highly recommended to use Matlab 2014B for utilizing  RTL-SDR
